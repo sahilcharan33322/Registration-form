@@ -1,0 +1,99 @@
+.container {
+    background: #f0ece2; 
+    opacity: 0.9;
+    border-radius: 20px;
+}
+body {
+    background-image: url("flat-lay-clean-office-desk.jpg");
+    background-color: #cccccc;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover
+   }
+
+   form {
+    background-color: #dfd3c3;
+    border-radius: 70px;
+   }
+
+.main {
+    padding: 20px;
+    font-family: Arial;
+    box-shadow: 5px 5px 7px 5px #8888;
+}
+
+.main h1{
+    font-size: 36px;
+    text-align: center;
+    font-family: Arial;
+
+}
+
+input {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    font-size: 20px;
+    padding: 12px 20px;
+    margin: 8px;
+    margin-left:37.5% ;
+    border: none;
+    border-bottom: 2px  solid #596e79;
+}
+
+input[type=submit] {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 150px;
+    background-color: #596e79;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    margin-left: 43.5%;
+}
+
+h2 {
+    font-size: 45px;
+    margin-left: 35.5%;
+    font-family: "Montserrat", sans-serif;
+    align-items: center;
+}
+
+input::placeholder{
+    margin-left: 2px;
+}
+
+@media (max-width: 1000px ) {
+    input {
+        width: 39%;
+        margin-left: 95px;
+    }
+
+    h2 {
+        margin-left: 70px;
+    }
+
+    input[type=submit] {
+        margin-left: 110px;
+    }
+}
+
+.custom-select {
+    height: 15px;
+    margin-left: 37.5%;
+}
+
+select {
+    height: 35px;
+    width: 340px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: none;
+    border-bottom: 2px  solid #596e79;
+    padding-left: 8px;
+}
+
+.custom-select option {
+    border: none;
+    background: transparent;
+}

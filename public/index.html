@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BViiSIFeK1dGmJRAkyCuHAHRg320mUCww70n3RYdg4Va+PmSTsz/K68vbdEjhu" crossorigin="anonymous">
+    <Link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="main-content">
+
+            </div>
+            <div class="content-form main">
+                <form action="/sign_up" method="POST">
+                    <h2>Registration Form</h2>
+                    <input type="text" class="box" id="name" name="name" placeholder="Enter Name" required/>
+                    <br>
+                    <input type="number" class="box" id="age" name="age" placeholder="Enter Age" required/>
+                    <br>
+                    <input type="text" class="box" id="email" name="email" placeholder="Enter Email" required/>
+                    <br>
+                    <input type="number" class="box" id="phno" name="phno" placeholder="Enter Mobile" required/>
+                    <br>
+                    <div class="custom-select">
+                        <select>
+                          <option value="0">  Select Gender</option>
+                          <option value="1">Male</option>
+                          <option value="2">Female</option>
+                          <option value="3">Rather not want to say</option>
+                        </select>
+                      </div>
+                    <br>
+                    <input type="password" class="box" id="password" name="password" placeholder="Enter Password" required/>
+                    <br>
+                    <input type="submit" value="Submit" id="submit" />
+
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
